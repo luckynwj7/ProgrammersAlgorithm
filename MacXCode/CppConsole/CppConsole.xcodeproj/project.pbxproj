@@ -10,6 +10,8 @@
 		9A8CF3B826F594DA000EB91E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A8CF3B726F594DA000EB91E /* main.cpp */; };
 		9AA5E2AD26F8830C00C0945D /* OpenChatLevel2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5E2AB26F8830C00C0945D /* OpenChatLevel2.cpp */; };
 		9AA5E2B026F883BE00C0945D /* Inflator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5E2AE26F883BE00C0945D /* Inflator.cpp */; };
+		9AA5E2B626F88F8A00C0945D /* OnewTwoFourNationLevel2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5E2B526F88F8A00C0945D /* OnewTwoFourNationLevel2.cpp */; };
+		9ADE87BA270057D5006336D4 /* ImagrationLevel3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9ADE87B8270057D5006336D4 /* ImagrationLevel3.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,12 +27,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9A8CF3B426F594DA000EB91E /* testConsole */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = testConsole; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8CF3B426F594DA000EB91E /* CppConsole */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CppConsole; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A8CF3B726F594DA000EB91E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9AA5E2AB26F8830C00C0945D /* OpenChatLevel2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OpenChatLevel2.cpp; sourceTree = "<group>"; };
 		9AA5E2AC26F8830C00C0945D /* OpenChatLevel2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OpenChatLevel2.hpp; sourceTree = "<group>"; };
 		9AA5E2AE26F883BE00C0945D /* Inflator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Inflator.cpp; sourceTree = "<group>"; };
 		9AA5E2AF26F883BE00C0945D /* Inflator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Inflator.hpp; sourceTree = "<group>"; };
+		9AA5E2B426F88F8A00C0945D /* OneTwoFourNationLevel2.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = OneTwoFourNationLevel2.hpp; sourceTree = "<group>"; };
+		9AA5E2B526F88F8A00C0945D /* OnewTwoFourNationLevel2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OnewTwoFourNationLevel2.cpp; sourceTree = "<group>"; };
+		9ADE87B8270057D5006336D4 /* ImagrationLevel3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ImagrationLevel3.cpp; sourceTree = "<group>"; };
+		9ADE87B9270057D5006336D4 /* ImagrationLevel3.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ImagrationLevel3.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +61,7 @@
 		9A8CF3B526F594DA000EB91E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A8CF3B426F594DA000EB91E /* testConsole */,
+				9A8CF3B426F594DA000EB91E /* CppConsole */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,11 +69,15 @@
 		9A8CF3B626F594DA000EB91E /* CppConsole */ = {
 			isa = PBXGroup;
 			children = (
+				9AA5E2B426F88F8A00C0945D /* OneTwoFourNationLevel2.hpp */,
+				9AA5E2B526F88F8A00C0945D /* OnewTwoFourNationLevel2.cpp */,
 				9A8CF3B726F594DA000EB91E /* main.cpp */,
 				9AA5E2AB26F8830C00C0945D /* OpenChatLevel2.cpp */,
 				9AA5E2AC26F8830C00C0945D /* OpenChatLevel2.hpp */,
 				9AA5E2AE26F883BE00C0945D /* Inflator.cpp */,
 				9AA5E2AF26F883BE00C0945D /* Inflator.hpp */,
+				9ADE87B8270057D5006336D4 /* ImagrationLevel3.cpp */,
+				9ADE87B9270057D5006336D4 /* ImagrationLevel3.hpp */,
 			);
 			path = CppConsole;
 			sourceTree = "<group>";
@@ -89,7 +99,7 @@
 			);
 			name = testConsole;
 			productName = testConsole;
-			productReference = 9A8CF3B426F594DA000EB91E /* testConsole */;
+			productReference = 9A8CF3B426F594DA000EB91E /* CppConsole */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -130,7 +140,9 @@
 			files = (
 				9A8CF3B826F594DA000EB91E /* main.cpp in Sources */,
 				9AA5E2AD26F8830C00C0945D /* OpenChatLevel2.cpp in Sources */,
+				9AA5E2B626F88F8A00C0945D /* OnewTwoFourNationLevel2.cpp in Sources */,
 				9AA5E2B026F883BE00C0945D /* Inflator.cpp in Sources */,
+				9ADE87BA270057D5006336D4 /* ImagrationLevel3.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +264,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CppConsole;
 			};
 			name = Debug;
 		};
@@ -260,7 +272,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CppConsole;
 			};
 			name = Release;
 		};
