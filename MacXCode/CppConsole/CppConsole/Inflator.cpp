@@ -6,3 +6,13 @@
 //
 
 #include "Inflator.hpp"
+
+void
+Inflator::SurfaceVectorDebuging(std::vector<std::vector<int>> inputData) {
+    for (std::vector<int> i : inputData) {
+        for (int j : i) {
+            std::cout << j << "  ";
+        }
+        std::cout << std::endl;
+    }
+}

@@ -8,10 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		9A8CF3B826F594DA000EB91E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A8CF3B726F594DA000EB91E /* main.cpp */; };
+		9A98584A27071E9400DA6E82 /* PracticeAllPairsShortest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A98584827071E9400DA6E82 /* PracticeAllPairsShortest.cpp */; };
+		9A98584D2707255300DA6E82 /* PracticeMatrixChain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A98584B2707255300DA6E82 /* PracticeMatrixChain.cpp */; };
+		9A98585027080AA000DA6E82 /* PracticeKnapsack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A98584E27080AA000DA6E82 /* PracticeKnapsack.cpp */; };
+		9A98585327080BED00DA6E82 /* PracticeDPCoinChange.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A98585127080BED00DA6E82 /* PracticeDPCoinChange.cpp */; };
 		9AA5E2AD26F8830C00C0945D /* OpenChatLevel2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5E2AB26F8830C00C0945D /* OpenChatLevel2.cpp */; };
 		9AA5E2B026F883BE00C0945D /* Inflator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5E2AE26F883BE00C0945D /* Inflator.cpp */; };
 		9AA5E2B626F88F8A00C0945D /* OnewTwoFourNationLevel2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5E2B526F88F8A00C0945D /* OnewTwoFourNationLevel2.cpp */; };
 		9ADE87BA270057D5006336D4 /* ImagrationLevel3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9ADE87B8270057D5006336D4 /* ImagrationLevel3.cpp */; };
+		9AE790EA270073B900C6492E /* IntegerTriangleLevel3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AE790E8270073B900C6492E /* IntegerTriangleLevel3.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +34,14 @@
 /* Begin PBXFileReference section */
 		9A8CF3B426F594DA000EB91E /* CppConsole */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CppConsole; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A8CF3B726F594DA000EB91E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9A98584827071E9400DA6E82 /* PracticeAllPairsShortest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PracticeAllPairsShortest.cpp; sourceTree = "<group>"; };
+		9A98584927071E9400DA6E82 /* PracticeAllPairsShortest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PracticeAllPairsShortest.hpp; sourceTree = "<group>"; };
+		9A98584B2707255300DA6E82 /* PracticeMatrixChain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PracticeMatrixChain.cpp; sourceTree = "<group>"; };
+		9A98584C2707255300DA6E82 /* PracticeMatrixChain.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PracticeMatrixChain.hpp; sourceTree = "<group>"; };
+		9A98584E27080AA000DA6E82 /* PracticeKnapsack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PracticeKnapsack.cpp; sourceTree = "<group>"; };
+		9A98584F27080AA000DA6E82 /* PracticeKnapsack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PracticeKnapsack.hpp; sourceTree = "<group>"; };
+		9A98585127080BED00DA6E82 /* PracticeDPCoinChange.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PracticeDPCoinChange.cpp; sourceTree = "<group>"; };
+		9A98585227080BED00DA6E82 /* PracticeDPCoinChange.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PracticeDPCoinChange.hpp; sourceTree = "<group>"; };
 		9AA5E2AB26F8830C00C0945D /* OpenChatLevel2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OpenChatLevel2.cpp; sourceTree = "<group>"; };
 		9AA5E2AC26F8830C00C0945D /* OpenChatLevel2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OpenChatLevel2.hpp; sourceTree = "<group>"; };
 		9AA5E2AE26F883BE00C0945D /* Inflator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Inflator.cpp; sourceTree = "<group>"; };
@@ -37,6 +50,8 @@
 		9AA5E2B526F88F8A00C0945D /* OnewTwoFourNationLevel2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OnewTwoFourNationLevel2.cpp; sourceTree = "<group>"; };
 		9ADE87B8270057D5006336D4 /* ImagrationLevel3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ImagrationLevel3.cpp; sourceTree = "<group>"; };
 		9ADE87B9270057D5006336D4 /* ImagrationLevel3.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ImagrationLevel3.hpp; sourceTree = "<group>"; };
+		9AE790E8270073B900C6492E /* IntegerTriangleLevel3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IntegerTriangleLevel3.cpp; sourceTree = "<group>"; };
+		9AE790E9270073B900C6492E /* IntegerTriangleLevel3.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IntegerTriangleLevel3.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +93,16 @@
 				9AA5E2AF26F883BE00C0945D /* Inflator.hpp */,
 				9ADE87B8270057D5006336D4 /* ImagrationLevel3.cpp */,
 				9ADE87B9270057D5006336D4 /* ImagrationLevel3.hpp */,
+				9AE790E8270073B900C6492E /* IntegerTriangleLevel3.cpp */,
+				9AE790E9270073B900C6492E /* IntegerTriangleLevel3.hpp */,
+				9A98584827071E9400DA6E82 /* PracticeAllPairsShortest.cpp */,
+				9A98584927071E9400DA6E82 /* PracticeAllPairsShortest.hpp */,
+				9A98584B2707255300DA6E82 /* PracticeMatrixChain.cpp */,
+				9A98584C2707255300DA6E82 /* PracticeMatrixChain.hpp */,
+				9A98584E27080AA000DA6E82 /* PracticeKnapsack.cpp */,
+				9A98584F27080AA000DA6E82 /* PracticeKnapsack.hpp */,
+				9A98585127080BED00DA6E82 /* PracticeDPCoinChange.cpp */,
+				9A98585227080BED00DA6E82 /* PracticeDPCoinChange.hpp */,
 			);
 			path = CppConsole;
 			sourceTree = "<group>";
@@ -138,11 +163,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A98585327080BED00DA6E82 /* PracticeDPCoinChange.cpp in Sources */,
 				9A8CF3B826F594DA000EB91E /* main.cpp in Sources */,
+				9A98585027080AA000DA6E82 /* PracticeKnapsack.cpp in Sources */,
 				9AA5E2AD26F8830C00C0945D /* OpenChatLevel2.cpp in Sources */,
 				9AA5E2B626F88F8A00C0945D /* OnewTwoFourNationLevel2.cpp in Sources */,
+				9A98584D2707255300DA6E82 /* PracticeMatrixChain.cpp in Sources */,
 				9AA5E2B026F883BE00C0945D /* Inflator.cpp in Sources */,
+				9A98584A27071E9400DA6E82 /* PracticeAllPairsShortest.cpp in Sources */,
 				9ADE87BA270057D5006336D4 /* ImagrationLevel3.cpp in Sources */,
+				9AE790EA270073B900C6492E /* IntegerTriangleLevel3.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

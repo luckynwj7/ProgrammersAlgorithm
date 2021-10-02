@@ -9,11 +9,14 @@
 #define Inflator_hpp
 
 #include <iostream>
+#include <vector>
 
 class Inflator {
 public:
     virtual ~Inflator() {}
     virtual void ShowResult() = 0;
+    
+    static void SurfaceVectorDebuging(std::vector<std::vector<int>> inputData);
 };
 
 #endif /* Inflator_hpp */
