@@ -14,6 +14,7 @@
 #include "PracticeMatrixChain.hpp"
 #include "PracticeKnapsack.hpp"
 #include "PracticeDPCoinChange.hpp"
+#include "DiscControllerLevel3.hpp"
 
 class Inflator;
 
@@ -24,11 +25,12 @@ int main(int argc, const char * argv[]) {
     //solution = new OneTwoFourNationLevel2;
     //solution = new OpenChatLevel2;
     //solution = new ImagrationLevel3;
-    solution = new IntegerTriangleLevel3;
+    //solution = new IntegerTriangleLevel3;
     //solution = new PracticeAllPairsShortest;
     //solution = new PracticeMatrixChain;
     //solution = new PracticeKnapsack;
     //solution = new PracticeDPCoinChange;
+    solution = new DiscControllerLevel3;
     
     if (solution != nullptr) {
         solution->ShowResult();
